@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4178FF9E48A5B35BCCCCF66C74DE922E83872B5D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4178FF9E48A5B35BCCCCF66C74DE922E83872B5D" : 0,
+    "F06B8F07AC52DB4A0DC9A44586A9ED402812B876" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "872D9310-1059-4502-8C64-9F9F95E9EF6A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4178FF9E48A5B35BCCCCF66C74DE922E83872B5D" : "p02-langert\/",
+    "F06B8F07AC52DB4A0DC9A44586A9ED402812B876" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NumberTileGame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NumberTileGame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/austinzheng\/iOS-2048",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4178FF9E48A5B35BCCCCF66C74DE922E83872B5D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/elanger4\/p02-langert",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F06B8F07AC52DB4A0DC9A44586A9ED402812B876"
+    }
+  ]
+}

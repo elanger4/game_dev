@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC2137F1E85C2B70004956D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2137E1E85C2B70004956D /* AppDelegate.swift */; };
+		3FC213811E85C2B70004956D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC213801E85C2B70004956D /* FirstViewController.swift */; };
+		3FC213831E85C2B70004956D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC213821E85C2B70004956D /* SecondViewController.swift */; };
+		3FC213861E85C2B80004956D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC213841E85C2B80004956D /* Main.storyboard */; };
+		3FC213881E85C2B80004956D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC213871E85C2B80004956D /* Assets.xcassets */; };
+		3FC2138B1E85C2B80004956D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC213891E85C2B80004956D /* LaunchScreen.storyboard */; };
+		3FC213961E85C2B80004956D /* p05_langertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC213951E85C2B80004956D /* p05_langertTests.swift */; };
+		3FC213A11E85C2B80004956D /* p05_langertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC213A01E85C2B80004956D /* p05_langertUITests.swift */; };
+		3FC213AF1E85C3420004956D /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC213AE1E85C3420004956D /* TaskManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC213921E85C2B80004956D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC213731E85C2B30004956D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC2137A1E85C2B40004956D;
+			remoteInfo = "p05-langert";
+		};
+		3FC2139D1E85C2B80004956D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC213731E85C2B30004956D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC2137A1E85C2B40004956D;
+			remoteInfo = "p05-langert";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FC2137B1E85C2B70004956D /* p05-langert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "p05-langert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC2137E1E85C2B70004956D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC213801E85C2B70004956D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3FC213821E85C2B70004956D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3FC213851E85C2B80004956D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC213871E85C2B80004956D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC2138A1E85C2B80004956D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC2138C1E85C2B80004956D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC213911E85C2B80004956D /* p05-langertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "p05-langertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC213951E85C2B80004956D /* p05_langertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p05_langertTests.swift; sourceTree = "<group>"; };
+		3FC213971E85C2B80004956D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC2139C1E85C2B80004956D /* p05-langertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "p05-langertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC213A01E85C2B80004956D /* p05_langertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p05_langertUITests.swift; sourceTree = "<group>"; };
+		3FC213A21E85C2B90004956D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC213AE1E85C3420004956D /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC213781E85C2B40004956D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC2138E1E85C2B80004956D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC213991E85C2B80004956D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC213721E85C2B30004956D = {
+			isa = PBXGroup;
+			children = (
+				3FC2137D1E85C2B70004956D /* p05-langert */,
+				3FC213941E85C2B80004956D /* p05-langertTests */,
+				3FC2139F1E85C2B80004956D /* p05-langertUITests */,
+				3FC2137C1E85C2B70004956D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC2137C1E85C2B70004956D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2137B1E85C2B70004956D /* p05-langert.app */,
+				3FC213911E85C2B80004956D /* p05-langertTests.xctest */,
+				3FC2139C1E85C2B80004956D /* p05-langertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC2137D1E85C2B70004956D /* p05-langert */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2137E1E85C2B70004956D /* AppDelegate.swift */,
+				3FC213801E85C2B70004956D /* FirstViewController.swift */,
+				3FC213821E85C2B70004956D /* SecondViewController.swift */,
+				3FC213841E85C2B80004956D /* Main.storyboard */,
+				3FC213871E85C2B80004956D /* Assets.xcassets */,
+				3FC213891E85C2B80004956D /* LaunchScreen.storyboard */,
+				3FC2138C1E85C2B80004956D /* Info.plist */,
+				3FC213AE1E85C3420004956D /* TaskManager.swift */,
+			);
+			path = "p05-langert";
+			sourceTree = "<group>";
+		};
+		3FC213941E85C2B80004956D /* p05-langertTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC213951E85C2B80004956D /* p05_langertTests.swift */,
+				3FC213971E85C2B80004956D /* Info.plist */,
+			);
+			path = "p05-langertTests";
+			sourceTree = "<group>";
+		};
+		3FC2139F1E85C2B80004956D /* p05-langertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC213A01E85C2B80004956D /* p05_langertUITests.swift */,
+				3FC213A21E85C2B90004956D /* Info.plist */,
+			);
+			path = "p05-langertUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC2137A1E85C2B40004956D /* p05-langert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC213A51E85C2B90004956D /* Build configuration list for PBXNativeTarget "p05-langert" */;
+			buildPhases = (
+				3FC213771E85C2B40004956D /* Sources */,
+				3FC213781E85C2B40004956D /* Frameworks */,
+				3FC213791E85C2B40004956D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "p05-langert";
+			productName = "p05-langert";
+			productReference = 3FC2137B1E85C2B70004956D /* p05-langert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC213901E85C2B80004956D /* p05-langertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC213A81E85C2B90004956D /* Build configuration list for PBXNativeTarget "p05-langertTests" */;
+			buildPhases = (
+				3FC2138D1E85C2B80004956D /* Sources */,
+				3FC2138E1E85C2B80004956D /* Frameworks */,
+				3FC2138F1E85C2B80004956D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC213931E85C2B80004956D /* PBXTargetDependency */,
+			);
+			name = "p05-langertTests";
+			productName = "p05-langertTests";
+			productReference = 3FC213911E85C2B80004956D /* p05-langertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC2139B1E85C2B80004956D /* p05-langertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC213AB1E85C2B90004956D /* Build configuration list for PBXNativeTarget "p05-langertUITests" */;
+			buildPhases = (
+				3FC213981E85C2B80004956D /* Sources */,
+				3FC213991E85C2B80004956D /* Frameworks */,
+				3FC2139A1E85C2B80004956D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC2139E1E85C2B80004956D /* PBXTargetDependency */,
+			);
+			name = "p05-langertUITests";
+			productName = "p05-langertUITests";
+			productReference = 3FC2139C1E85C2B80004956D /* p05-langertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC213731E85C2B30004956D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Erik Langert";
+				TargetAttributes = {
+					3FC2137A1E85C2B40004956D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3FC213901E85C2B80004956D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FC2137A1E85C2B40004956D;
+					};
+					3FC2139B1E85C2B80004956D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FC2137A1E85C2B40004956D;
+					};
+				};
+			};
+			buildConfigurationList = 3FC213761E85C2B30004956D /* Build configuration list for PBXProject "p05-langert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC213721E85C2B30004956D;
+			productRefGroup = 3FC2137C1E85C2B70004956D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC2137A1E85C2B40004956D /* p05-langert */,
+				3FC213901E85C2B80004956D /* p05-langertTests */,
+				3FC2139B1E85C2B80004956D /* p05-langertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC213791E85C2B40004956D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC2138B1E85C2B80004956D /* LaunchScreen.storyboard in Resources */,
+				3FC213881E85C2B80004956D /* Assets.xcassets in Resources */,
+				3FC213861E85C2B80004956D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC2138F1E85C2B80004956D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC2139A1E85C2B80004956D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC213771E85C2B40004956D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC213831E85C2B70004956D /* SecondViewController.swift in Sources */,
+				3FC2137F1E85C2B70004956D /* AppDelegate.swift in Sources */,
+				3FC213AF1E85C3420004956D /* TaskManager.swift in Sources */,
+				3FC213811E85C2B70004956D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC2138D1E85C2B80004956D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC213961E85C2B80004956D /* p05_langertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC213981E85C2B80004956D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC213A11E85C2B80004956D /* p05_langertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC213931E85C2B80004956D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC2137A1E85C2B40004956D /* p05-langert */;
+			targetProxy = 3FC213921E85C2B80004956D /* PBXContainerItemProxy */;
+		};
+		3FC2139E1E85C2B80004956D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC2137A1E85C2B40004956D /* p05-langert */;
+			targetProxy = 3FC2139D1E85C2B80004956D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC213841E85C2B80004956D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC213851E85C2B80004956D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC213891E85C2B80004956D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC2138A1E85C2B80004956D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC213A31E85C2B90004956D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FC213A41E85C2B90004956D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC213A61E85C2B90004956D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "p05-langert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs441.p05-langert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FC213A71E85C2B90004956D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "p05-langert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs441.p05-langert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FC213A91E85C2B90004956D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "p05-langertTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs441.p05-langertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/p05-langert.app/p05-langert";
+			};
+			name = Debug;
+		};
+		3FC213AA1E85C2B90004956D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "p05-langertTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs441.p05-langertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/p05-langert.app/p05-langert";
+			};
+			name = Release;
+		};
+		3FC213AC1E85C2B90004956D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "p05-langertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs441.p05-langertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "p05-langert";
+			};
+			name = Debug;
+		};
+		3FC213AD1E85C2B90004956D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "p05-langertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs441.p05-langertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "p05-langert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC213761E85C2B30004956D /* Build configuration list for PBXProject "p05-langert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC213A31E85C2B90004956D /* Debug */,
+				3FC213A41E85C2B90004956D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC213A51E85C2B90004956D /* Build configuration list for PBXNativeTarget "p05-langert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC213A61E85C2B90004956D /* Debug */,
+				3FC213A71E85C2B90004956D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FC213A81E85C2B90004956D /* Build configuration list for PBXNativeTarget "p05-langertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC213A91E85C2B90004956D /* Debug */,
+				3FC213AA1E85C2B90004956D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FC213AB1E85C2B90004956D /* Build configuration list for PBXNativeTarget "p05-langertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC213AC1E85C2B90004956D /* Debug */,
+				3FC213AD1E85C2B90004956D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC213731E85C2B30004956D /* Project object */;
+}

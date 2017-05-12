@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F122EAED296DAB2C6A646CBDC89F706ABD804084",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F122EAED296DAB2C6A646CBDC89F706ABD804084" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1860B64B-15BE-4FCA-BCFD-5152EEE15D90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F122EAED296DAB2C6A646CBDC89F706ABD804084" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "p07-langert-cavaluzzi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "p07-langert-cavaluzzi\/p07-langert-cavaluzzi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/elanger4\/p07-langert-cavaluzzi",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F122EAED296DAB2C6A646CBDC89F706ABD804084"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/elanger4\/p07-langert-cavaluzzi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F122EAED296DAB2C6A646CBDC89F706ABD804084"
+    }
+  ]
+}
